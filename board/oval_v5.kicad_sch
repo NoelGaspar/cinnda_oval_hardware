@@ -10527,6 +10527,18 @@
 		(uuid da515637-1ea8-4ec7-b730-aadfb0c91b1b)
 	)
 	(rectangle
+		(start 439.42 0)
+		(end 650.24 120.65)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de21e980-d7ab-4eb3-9c57-0e17eb723299)
+	)
+	(rectangle
 		(start 118.11 378.46)
 		(end 223.52 441.96)
 		(stroke
@@ -10783,7 +10795,7 @@
 	)
 	(text "Expansor GPIO\n-------------------\nGPIO00 - onBoardLED\nGPIO01 - V_GSM_EN\nGPIO02 - V_S1_EN\nGPIO03 - V_S2_EN\nGPIO04 - V_RF_EN\nGPIO05 - V_DL_EN\nGPIO06 - FAN_1_EN\nGPIO07 - FAN_1_EN\nGPIO08 - PMS_SET\nGPIO09 - RS485_EN\nGPIO10 - I2C_BUS_RST\n\n"
 		(exclude_from_sim no)
-		(at 505.206 120.396 0)
+		(at 498.856 105.918 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11006,6 +11018,19 @@
 			(justify left bottom)
 		)
 		(uuid "cf74980d-fe44-447c-8f2e-6aa979b8eefe")
+	)
+	(text "Extensores I2C"
+		(exclude_from_sim no)
+		(at 504.698 10.668 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.5994)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "d04f37ef-ba26-4061-8599-3b1178fdb39f")
 	)
 	(text "Auxiliar FAN drivers"
 		(exclude_from_sim no)
@@ -11900,7 +11925,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 50.8) (xy 622.3 50.8)
+			(xy 635 49.53) (xy 632.46 49.53)
 		)
 		(stroke
 			(width 0)
@@ -13510,7 +13535,7 @@
 	)
 	(wire
 		(pts
-			(xy 635 46.99) (xy 635 50.8)
+			(xy 635 46.99) (xy 635 49.53)
 		)
 		(stroke
 			(width 0)
@@ -14880,7 +14905,7 @@
 	)
 	(wire
 		(pts
-			(xy 629.92 45.72) (xy 629.92 48.26)
+			(xy 629.92 45.72) (xy 629.92 46.99)
 		)
 		(stroke
 			(width 0)
@@ -15100,7 +15125,7 @@
 	)
 	(wire
 		(pts
-			(xy 629.92 48.26) (xy 622.3 48.26)
+			(xy 629.92 46.99) (xy 627.38 46.99)
 		)
 		(stroke
 			(width 0)
@@ -15634,7 +15659,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 622.3 50.8 180)
+		(at 632.46 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15644,7 +15669,7 @@
 		)
 		(uuid "029880f5-e5f2-4e67-82f1-be407564a1d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 615.7467 50.8 0)
+			(at 625.9067 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17240,7 +17265,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 622.3 48.26 180)
+		(at 627.38 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17250,7 +17275,7 @@
 		)
 		(uuid "501e2dff-8ee1-4595-916d-3a329c1e1b21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 615.8072 48.26 0)
+			(at 620.8872 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20819,7 +20844,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 633.3236 41.91 90)
 			(effects
 				(font
@@ -20863,14 +20888,6 @@
 				(hide yes)
 			)
 		)
-		(property "DNP" "DNP"
-			(at 627.38 41.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(pin "1"
 			(uuid "d1665f61-6a39-4773-9343-154bb11d05b4")
 		)
@@ -20903,7 +20920,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 505.968 226.06 90)
 			(effects
 				(font
@@ -21898,7 +21915,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 578.358 226.06 90)
 			(effects
 				(font
@@ -22147,7 +22164,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 579.628 252.73 90)
 			(effects
 				(font
@@ -22768,7 +22785,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 558.038 226.314 90)
 			(effects
 				(font
@@ -22985,7 +23002,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 224.155 56.2864 90)
 			(effects
 				(font
@@ -23731,7 +23748,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 503.428 250.444 90)
 			(effects
 				(font
@@ -24017,7 +24034,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 560.578 226.06 90)
 			(effects
 				(font
@@ -25804,7 +25821,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 487.2736 38.1 90)
 			(effects
 				(font
@@ -26132,7 +26149,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 564.388 254 90)
 			(effects
 				(font
@@ -26906,7 +26923,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 77.9272 125.603 0)
 			(effects
 				(font
@@ -28414,7 +28431,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 503.428 226.314 90)
 			(effects
 				(font
@@ -29050,7 +29067,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 505.968 250.19 90)
 			(effects
 				(font
@@ -30761,7 +30778,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 199.39 95.6564 90)
 			(effects
 				(font
@@ -30992,7 +31009,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 65.2272 125.603 0)
 			(effects
 				(font
@@ -32035,7 +32052,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 561.848 254.254 90)
 			(effects
 				(font
@@ -34162,7 +34179,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 577.088 252.984 90)
 			(effects
 				(font
@@ -34476,7 +34493,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 575.818 226.314 90)
 			(effects
 				(font
@@ -34657,7 +34674,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 493.268 250.19 90)
 			(effects
 				(font
@@ -35189,7 +35206,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 493.268 226.06 90)
 			(effects
 				(font
@@ -35536,7 +35553,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 490.728 226.314 90)
 			(effects
 				(font
@@ -37689,7 +37706,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 482.1936 36.83 90)
 			(effects
 				(font
@@ -38209,7 +38226,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 638.4036 43.18 90)
 			(effects
 				(font
@@ -38251,14 +38268,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "DNP|" "DNP"
-			(at 633.222 42.926 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(pin "1"
@@ -38632,7 +38641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 204.47 344.17 0)
 			(effects
 				(font
@@ -40208,7 +40217,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 490.728 250.444 90)
 			(effects
 				(font
@@ -40418,7 +40427,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "10k"
 			(at 565.5564 41.91 90)
 			(effects
 				(font
