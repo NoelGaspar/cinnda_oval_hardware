@@ -10829,7 +10829,7 @@
 	)
 	(text "OLD sensors\n"
 		(exclude_from_sim no)
-		(at 295.148 363.474 0)
+		(at 278.13 363.22 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -13865,7 +13865,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 441.96) (xy 306.07 440.69)
+			(xy 320.04 440.69) (xy 320.04 439.42)
 		)
 		(stroke
 			(width 0)
@@ -14035,7 +14035,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 422.91) (xy 306.07 422.91)
+			(xy 318.77 421.64) (xy 320.04 421.64)
 		)
 		(stroke
 			(width 0)
@@ -14545,7 +14545,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 422.91) (xy 306.07 425.45)
+			(xy 320.04 421.64) (xy 320.04 424.18)
 		)
 		(stroke
 			(width 0)
@@ -16361,7 +16361,7 @@
 			)
 		)
 	)
-	(global_label "SDA_6"
+	(global_label "SDA_1"
 		(shape input)
 		(at 532.13 227.33 180)
 		(fields_autoplaced yes)
@@ -16671,7 +16671,7 @@
 	)
 	(global_label "RGB"
 		(shape input)
-		(at 298.45 433.07 180)
+		(at 312.42 431.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16681,7 +16681,7 @@
 		)
 		(uuid "33cc8078-11be-4c71-88ec-dbbf0531c640")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 291.6548 433.07 0)
+			(at 305.6248 431.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16691,7 +16691,7 @@
 			)
 		)
 	)
-	(global_label "SCL_6"
+	(global_label "SCL_1"
 		(shape input)
 		(at 532.13 229.87 180)
 		(fields_autoplaced yes)
@@ -17463,7 +17463,7 @@
 	)
 	(global_label "V_S1"
 		(shape input)
-		(at 304.8 422.91 180)
+		(at 318.77 421.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17473,7 +17473,7 @@
 		)
 		(uuid "57e034bb-528f-487b-a3f1-d75cca688633")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 297.3396 422.91 0)
+			(at 311.3096 421.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17879,7 +17879,7 @@
 			)
 		)
 	)
-	(global_label "SDA_7"
+	(global_label "SDA_0"
 		(shape input)
 		(at 532.13 247.65 180)
 		(fields_autoplaced yes)
@@ -19045,7 +19045,7 @@
 			)
 		)
 	)
-	(global_label "SCL_7"
+	(global_label "SCL_0"
 		(shape input)
 		(at 532.13 250.19 180)
 		(fields_autoplaced yes)
@@ -39915,7 +39915,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 441.96 0)
+		(at 320.04 440.69 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -39924,7 +39924,7 @@
 		(dnp no)
 		(uuid "f8e5d764-1a74-4c52-81b1-17985442fd7c")
 		(property "Reference" "#PWR067"
-			(at 306.07 448.31 0)
+			(at 320.04 447.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39933,7 +39933,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 305.943 446.3542 0)
+			(at 319.913 445.0842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39941,7 +39941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 441.96 0)
+			(at 320.04 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39950,7 +39950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 441.96 0)
+			(at 320.04 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39959,7 +39959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 306.07 441.96 0)
+			(at 320.04 440.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40059,7 +40059,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 306.07 433.07 0)
+		(at 320.04 431.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40068,7 +40068,7 @@
 		(fields_autoplaced yes)
 		(uuid "faf44c94-47c5-48dc-b3b4-89ee58b1b2b2")
 		(property "Reference" "D10"
-			(at 317.5 426.6498 0)
+			(at 331.47 425.3798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40076,7 +40076,7 @@
 			)
 		)
 		(property "Value" "WS2812B"
-			(at 317.5 429.1898 0)
+			(at 331.47 427.9198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40084,7 +40084,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 307.34 440.69 0)
+			(at 321.31 439.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40094,7 +40094,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 308.61 442.595 0)
+			(at 322.58 441.325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40104,7 +40104,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 306.07 433.07 0)
+			(at 320.04 431.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
