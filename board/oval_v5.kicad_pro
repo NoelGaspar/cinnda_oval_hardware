@@ -514,7 +514,7 @@
       "plot": "Fab_Files/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Output_files/oval_v5.step",
       "svg": "",
       "vrml": ""
     },
